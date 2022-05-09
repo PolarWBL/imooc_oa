@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ctgu.oa.dao.NodeDao">
+    <select id="selectNodeByUserId" parameterType="Long" resultType="com.ctgu.oa.entity.Node">
+        select distinct sn.*
+        from sys_role_user sru left join sys_role_node srn on sru.role_id = srn.role_id
+                               left join sys_node sn on srn.node_id = sn.node_id
+        where sru.user_id = #{value} order by sn.node_code
+    </select>
+</mapper>
