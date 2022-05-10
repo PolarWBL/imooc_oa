@@ -1,5 +1,6 @@
-package com.ctgu.oa.dao;
+package com.ctgu.oa.dao.impl;
 
+import com.ctgu.oa.dao.LeaveFormDao;
 import com.ctgu.oa.entity.LeaveForm;
 import com.ctgu.oa.utils.MybatisUtils;
 
@@ -9,7 +10,7 @@ import java.util.Map;
 /**
  * @author Boliang Weng
  */
-public class LeaveFormDaoImpl implements LeaveFormDao{
+public class LeaveFormDaoImpl implements LeaveFormDao {
     @Override
     public void insertLeaveForm(LeaveForm leaveForm) {
         MybatisUtils.executeUpdate(sqlSession -> {

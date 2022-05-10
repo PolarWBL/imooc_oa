@@ -1,12 +1,13 @@
-package com.ctgu.oa.dao;
+package com.ctgu.oa.dao.impl;
 
+import com.ctgu.oa.dao.EmployeeDao;
 import com.ctgu.oa.entity.Employee;
 import com.ctgu.oa.utils.MybatisUtils;
 
 /**
  * @author Boliang Weng
  */
-public class EmployeeDaoImpl implements EmployeeDao{
+public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public Employee selectEmployeeById(Long employeeId) {

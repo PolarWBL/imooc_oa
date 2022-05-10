@@ -1,8 +1,8 @@
 package com.ctgu.oa.service;
 
-import com.ctgu.oa.dao.LeaveFormDaoImpl;
-import com.ctgu.oa.dao.NoticeDaoImpl;
-import com.ctgu.oa.dao.ProcessFlowDaoImpl;
+import com.ctgu.oa.dao.impl.LeaveFormDaoImpl;
+import com.ctgu.oa.dao.impl.NoticeDaoImpl;
+import com.ctgu.oa.dao.impl.ProcessFlowDaoImpl;
 import com.ctgu.oa.entity.*;
 import org.junit.Test;
 

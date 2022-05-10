@@ -1,7 +1,7 @@
 package com.ctgu.oa.service;
 
 import com.ctgu.oa.dao.ProcessFlowDao;
-import com.ctgu.oa.dao.ProcessFlowDaoImpl;
+import com.ctgu.oa.dao.impl.ProcessFlowDaoImpl;
 import com.ctgu.oa.entity.Employee;
 import com.ctgu.oa.entity.LeaveForm;
 import com.ctgu.oa.entity.ProcessFlow;

@@ -1,5 +1,6 @@
-package com.ctgu.oa.dao;
+package com.ctgu.oa.dao.impl;
 
+import com.ctgu.oa.dao.ProcessFlowDao;
 import com.ctgu.oa.entity.ProcessFlow;
 import com.ctgu.oa.utils.MybatisUtils;
 
@@ -8,7 +9,7 @@ import java.util.List;
 /**
  * @author Boliang Weng
  */
-public class ProcessFlowDaoImpl implements ProcessFlowDao{
+public class ProcessFlowDaoImpl implements ProcessFlowDao {
     @Override
     public void insertProcessFlow(ProcessFlow processFlow) {
         MybatisUtils.executeUpdate(sqlSession -> {

@@ -1,5 +1,6 @@
-package com.ctgu.oa.dao;
+package com.ctgu.oa.dao.impl;
 
+import com.ctgu.oa.dao.NoticeDao;
 import com.ctgu.oa.entity.Notice;
 import com.ctgu.oa.utils.MybatisUtils;
 
@@ -8,7 +9,7 @@ import java.util.List;
 /**
  * @author Boliang Weng
  */
-public class NoticeDaoImpl implements NoticeDao{
+public class NoticeDaoImpl implements NoticeDao {
     @Override
     public void insertNotice(Notice notice) {
         MybatisUtils.executeUpdate(sqlSession -> {

@@ -1,9 +1,9 @@
 package com.ctgu.oa.service;
 
 import com.ctgu.oa.dao.NodeDao;
-import com.ctgu.oa.dao.NodeDaoImpl;
+import com.ctgu.oa.dao.impl.NodeDaoImpl;
 import com.ctgu.oa.dao.UserDao;
-import com.ctgu.oa.dao.UserDaoImpl;
+import com.ctgu.oa.dao.impl.UserDaoImpl;
 import com.ctgu.oa.entity.Node;
 import com.ctgu.oa.entity.User;
 import com.ctgu.oa.service.exception.BusinessException;

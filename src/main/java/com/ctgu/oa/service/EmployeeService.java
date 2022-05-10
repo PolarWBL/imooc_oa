@@ -1,7 +1,7 @@
 package com.ctgu.oa.service;
 
 import com.ctgu.oa.dao.EmployeeDao;
-import com.ctgu.oa.dao.EmployeeDaoImpl;
+import com.ctgu.oa.dao.impl.EmployeeDaoImpl;
 import com.ctgu.oa.entity.Employee;
 
 /**

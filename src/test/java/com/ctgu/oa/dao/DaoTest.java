@@ -1,5 +1,7 @@
 package com.ctgu.oa.dao;
 
+import com.ctgu.oa.dao.impl.LeaveFormDaoImpl;
+import com.ctgu.oa.dao.impl.ProcessFlowDaoImpl;
 import com.ctgu.oa.entity.LeaveForm;
 import com.ctgu.oa.entity.ProcessFlow;
 import org.junit.Test;
